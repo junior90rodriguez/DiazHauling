@@ -8,19 +8,48 @@
  h1 {
     font-size: 1.5rem;
     color: red;
+    text-align: center;
  }
 
  h2 {
     font-size: 1rem;
+    color: white;
+    text-align: center;
+    background: red;
+    height: 40px;
+    padding-top: 20px;
+    margin: 0;
+ }
+
+ a {
+     text-decoration: none;
+     color: white;
  }
 
  .accordion {
-    border: 1px solid red;
-    margin: 0
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
  }
 
+ .active, .accordion:hover {
+     background-color: #ccc;
+ }
+
+ .panel {
+     padding: 0 18px;
+     background-color: white;
+     display: none;
+     overflow: hidden;
+ }
  img {
     height: 250px;
-    width: 360px;
+    width: 450px;
  }
 }
