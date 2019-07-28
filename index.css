@@ -3,6 +3,63 @@
         background: red;
     }
 } */
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: red;
+}
+
+h2 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    background: red;
+    height: 70px;
+    padding-top: 20px;
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+    font-size: 3rem;
+ }
+
+ .active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+
+.trash {
+    transform: rotate(90deg);
+}
+
 /* mobile version */
 @media(max-width: 500px) {
  h1 {
