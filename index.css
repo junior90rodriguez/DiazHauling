@@ -52,4 +52,16 @@
     height: 250px;
     width: 450px;
  }
+
+ .trash {
+     transform: rotate(90deg);
+ }
+
+ .concrete {
+     height: 550px;
+ }
+
+ footer{
+     text-align: center;
+ }
 }
