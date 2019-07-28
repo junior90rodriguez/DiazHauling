@@ -83,6 +83,10 @@ footer {
      color: white;
  }
 
+ .cover {
+     width: 100%;
+ }
+
  .accordion {
     background-color: #eee;
     font-size: 1.5rem;
