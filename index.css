@@ -56,10 +56,6 @@ footer {
     overflow: hidden;
 }
 
-/* .trash {
-    transform: rotate(90deg);
-} */
-
 /* mobile version */
 @media(max-width: 500px) {
  h1 {
@@ -114,15 +110,16 @@ footer {
     height: 250px;
     width: 450px;
  }
-/* 
- .trash {
+ 
+ 
+ /* .trash {
         -webkit-transform: rotate(90deg);
         -moz-transform: rotate(90deg);
         -o-transform: rotate(90deg);
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     
- } */
+ }  */
 
  .concrete {
      height: 550px;
