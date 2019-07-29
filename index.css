@@ -56,14 +56,6 @@ footer {
     overflow: hidden;
 }
 
-.trash {
-    -webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-
-}
 
 /* mobile version */
 @media(max-width: 500px) {
@@ -120,15 +112,6 @@ footer {
     width: 450px;
  }
  
- 
- .trash {
-        -webkit-transform: rotate(90deg);
-        -moz-transform: rotate(90deg);
-        -o-transform: rotate(90deg);
-        -ms-transform: rotate(90deg);
-        transform: rotate(90deg);
-    
- } 
 
  .concrete {
      height: 550px;
